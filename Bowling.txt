@@ -11,5 +11,6 @@
   a. Mettre le score total à 20 (Règle "All ones scores 20")
 7. Si le 1er lancer est 10, le 2e lancer est 3, et les suivants sont 0 :
   a. Mettre le score total à 16 (Règle spéciale du scénario Strike + 3 + 0)
+ blablabla
 8. Afficher le score total
 9. Terminer
