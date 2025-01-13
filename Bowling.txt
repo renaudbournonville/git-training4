@@ -11,5 +11,5 @@
   a. Mettre le score total à 20 (Règle "All ones scores 20")
 7. Si le 1er lancer est un strike (10 quilles) :
   a. Ajouter les points des 2 lancers suivants au score total
-8. Afficher le score total et le compteur de "quilles tombées à 1"
+8. Afficher le score total
 9. Terminer
