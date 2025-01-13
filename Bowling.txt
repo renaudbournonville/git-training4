@@ -1,0 +1,8 @@
+A donner :
+1. Commencer
+2. Mettre le score total à 0
+3. Répéter 12 fois (pour chaque lancer) :
+   a. Demander au joueur combien de quilles sont tombées (entre 0 et 10)
+   b. Ajouter ce nombre au score total
+4. Après les 12 lancers, afficher le score total
+5. Terminer
