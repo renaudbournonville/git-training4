@@ -1,7 +1,11 @@
 1. Commencer
 2. Mettre le score total à 0
-3. Répéter 12 fois (pour chaque lancer) :
+3. Mettre un compteur de "quilles tombées à 1" à 0
+4. Répéter 12 fois (pour chaque lancer) :
    a. Demander au joueur combien de quilles sont tombées (entre 0 et 10)
    b. Ajouter ce nombre au score total
-4. Après les 12 lancers, afficher le score total
-5. Terminer
+   c. Si le joueur a renversé exactement 1 quille, augmenter le compteur de 1
+5. Si le compteur de "quilles tombées à 1" est égal à 12 :
+   a. Mettre le score total à 20
+6. Afficher le score total
+7. Terminer
