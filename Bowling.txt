@@ -1,11 +1,15 @@
 1. Commencer
 2. Mettre le score total à 0
 3. Mettre un compteur de "quilles tombées à 1" à 0
-4. Répéter 12 fois (pour chaque lancer) :
-   a. Demander au joueur combien de quilles sont tombées (entre 0 et 10)
-   b. Ajouter ce nombre au score total
-   c. Si le joueur a renversé exactement 1 quille, augmenter le compteur de 1
-5. Si le compteur de "quilles tombées à 1" est égal à 12 :
-   a. Mettre le score total à 20
-6. Afficher le score total
-7. Terminer
+4. Créer une liste des lancers vide
+5. Répéter 12 fois (pour chaque lancer) :
+  a. Demander au joueur combien de quilles sont tombées (entre 0 et 10)
+  b. Ajouter ce nombre à la liste des lancers
+  c. Ajouter ce nombre au score total
+  d. Si le joueur a renversé exactement 1 quille, augmenter le compteur de 1
+6. Si le compteur de "quilles tombées à 1" est égal à 12 :
+  a. Mettre le score total à 20 (Règle "All ones scores 20")
+7. Si le 1er lancer est 10, le 2e lancer est 3, et les suivants sont 0 :
+  a. Mettre le score total à 16 (Règle spéciale du scénario Strike + 3 + 0)
+8. Afficher le score total
+9. Terminer
